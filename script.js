@@ -4,30 +4,119 @@ let searchBar = document.getElementById("searchBar");
 function addCitiesToList() {
     let cities = [
         {
-            name: "Uttar Pradesh, India",
-            population: "240,000,000"
+            name: "Uttar Pradesh",
+            population: "235,687,000"
         },
         {
-            name: "Bihar, India",
-            population: "131,000,000"
+            name: "Bihar",
+            population: "126,756,000"
         },
         {
-            name: "Maharashtra, India",
-            population: "125,000,000"
+            name: "Maharashtra",
+            population: "126,385,000"
         },
         {
-            name: "West Bengal, India",
-            population: "101,000,000"
+            name: "West Bengal",
+            population: "102,000,000"
         },
         {
-            name: "Karnataka, India",
-            population: "61,095,297"
+            name: "Madhya Pradesh",
+            population: "85,000,000"
         },
         {
-            name: "Gujarat, India",
-            population: "60,439,692"
+            name: "Tamil Nadu",
+            population: "84,000,000"
+        },
+        {
+            name: "Rajasthan",
+            population: "80,000,000"
+        },
+        {
+            name: "Andhra Pradesh",
+            population: "54,000,000"
+        },
+        {
+            name: "Odisha",
+            population: "47,000,000"
+        },
+        {
+            name: "Gujarat",
+            population: "70,000,000"
+        },
+        {
+            name: "Karnataka",
+            population: "70,000,000"
+        },
+        {
+            name: "Telangana",
+            population: "38,000,000"
+        },
+        {
+            name: "Kerala",
+            population: "35,000,000"
+        },
+        {
+            name: "Jharkhand",
+            population: "40,000,000"
+        },
+        {
+            name: "Assam",
+            population: "36,000,000"
+        },
+        {
+            name: "Punjab",
+            population: "31,000,000"
+        },
+        {
+            name: "Haryana",
+            population: "29,000,000"
+        },
+        {
+            name: "Chhattisgarh",
+            population: "32,000,000"
+        },
+        {
+            name: "Uttarakhand",
+            population: "12,000,000"
+        },
+        {
+            name: "Himachal Pradesh",
+            population: "7,500,000"
+        },
+        {
+            name: "Tripura",
+            population: "4,200,000"
+        },
+        {
+            name: "Meghalaya",
+            population: "3,800,000"
+        },
+        {
+            name: "Manipur",
+            population: "3,400,000"
+        },
+        {
+            name: "Nagaland",
+            population: "2,100,000"
+        },
+        {
+            name: "Goa",
+            population: "1,500,000"
+        },
+        {
+            name: "Arunachal Pradesh",
+            population: "1,700,000"
+        },
+        {
+            name: "Mizoram",
+            population: "1,300,000"
+        },
+        {
+            name: "Sikkim",
+            population: "610,000"
         }
     ];
+
 
 
     cities.forEach(function (city) {
